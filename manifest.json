@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "FS",
+    "version": "0.0.3",
+    "description": "FS",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_title": "Click to fullscreen"
+    },
+    "background":
+    {
+        "service_worker": "main.js"
+    }
+}
